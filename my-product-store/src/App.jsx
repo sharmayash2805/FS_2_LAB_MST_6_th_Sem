@@ -38,7 +38,6 @@ function App() {
 return (
     <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       
-      {/* Task 5: Header Section */}
       <header style={{ 
         display: 'flex', 
         justifyContent: 'space-between', 
@@ -53,7 +52,6 @@ return (
         </div>
       </header>
 
-      {/* Task 3: Product Grid */}
       <div style={{ 
         display: 'grid', 
         gridTemplateColumns: 'repeat(3, 1fr)', 
@@ -97,7 +95,6 @@ return (
 
       <hr style={{ margin: '50px 0', border: '0', borderTop: '2px dashed #eee' }} />
 
-      {/* Task 4: Cart Panel Section */}
       <section>
         <CartPanel />
       </section>
